@@ -212,6 +212,7 @@ i {
 .instagram {
     text-align: center;
     font-size: 1.5em;
+    margin-top:10px;
 }
 
 a {
@@ -219,4 +220,18 @@ a {
 }
 a:hover {
     color:#018f59  !important;
+  }
+
+  .donate {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .donate p {
+      margin-bottom:15px;
+      padding:10px;
+  }
+
+#donate-image{
+      width:200px;
   }
