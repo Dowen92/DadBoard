@@ -208,3 +208,15 @@ i {
     text-decoration: line-through;
     color: #00d1b2;
 }
+
+.instagram {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+a {
+    color: #03bd76  !important;
+}
+a:hover {
+    color:#018f59  !important;
+  }
