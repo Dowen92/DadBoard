@@ -11,7 +11,7 @@
   punchLineButton.addEventListener("click", playSound);
 
   const audio = document.getElementById("audio");
-
+  const jokesContainer = document.getElementById("jokes-container");
   function playSound()
   {
     audio.currentTime = 0;
@@ -60,7 +60,7 @@
   function addJoke()
   {
       let joke = jokesInput.value;
-
+    jokesInput.value = "";
       if(joke.trim().length <= 0)
           return;
       
@@ -81,6 +81,7 @@
 
   function createJokeElement(jokeObject)
   {
+    
     jokeElement = document.createElement('div');
     jokeLineElement = document.createElement('div');
     jokeLineElement.classList.add("joke-row");
@@ -132,4 +133,6 @@
 
       deleteButtonElement.parentElement.parentElement.remove();
     });
+
+    jokesContainer.appendChild(jokeElement);
   }
