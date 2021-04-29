@@ -32,12 +32,27 @@ i {
 .card {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 90vw;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
     background-color: rgb(53, 53, 53) !important;
     box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, 0.5),0 0 0 1px rgba(10, 10, 10, 0.4) !important;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.field {
+    padding-top: 2px;
 }
 
 .joke-hr {
@@ -48,13 +63,13 @@ i {
 .title-text {
     font-weight:bolder;
     margin-top: 15px;
-    font-size: calc(11px + 2vw);
+    font-size: 3em;
     text-shadow: 2px 2px #8d8d8d;
 }
 
 .strapline-text {
     font-weight: normal;
-    font-size: calc(9px + 1.5vw);
+    font-size: 2em;
 }
 
 .joke {
@@ -73,8 +88,9 @@ i {
 }
 
 .joke-text {
-    width: 80%;
-    margin:10px;
+    width:100%;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .joke-buttons-container {
@@ -109,6 +125,7 @@ i {
     border-radius: 10px;
     margin:10px;
     min-width: 55px;
+    width:50%;
 }
 
 .joke-button:hover {
@@ -147,13 +164,13 @@ i {
 
 .list-title h1 {
     font-weight: bold;
-    font-size: calc(11px + 1vw);
+    font-size: 2em;
     text-shadow: 2px 2px #8d8d8d;
 }
 
 .list-title p {
     font-weight: normal;
-    font-size: calc(6px + 0.5vw);
+    font-size: 0.8em;
 }
 
 .add-button {
@@ -170,6 +187,7 @@ i {
     text-align: center;
     color: rgba(255, 255, 255, 0.295);
     margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 .joke-row {
