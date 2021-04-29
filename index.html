@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8">
+
+    <title>DadBoard</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script defer src="js/script.js"></script>
+
+    <script src="https://kit.fontawesome.com/bb32faad6c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section id="title">
+        <h1 class="title-text center-text">DadBoard</h1>
+        <h2 class="strapline-text center-text">#1 place for your dad jokes!</h2>
+    </section>
+
+    <section class="card">
+        <audio src="/audio/drum.mp3" id="audio"></audio>
+        <div class="joke-container">  
+            <div class="joke-text">
+                <p id="jokeText">Loading Joke...</p>
+            </div> 
+        </div>
+        <hr class="joke-hr"/>
+        <div class="joke-buttons-container">
+            <div class="punchline-container">
+                <button class="button is-primary joke-button" id="punchLineButton">
+                    <i class="fas fa-drum fa-2x"></i>
+                </button>
+            </div>
+            <div class="new-container">
+                <button class="button is-primary joke-button" id="getJokeButton">
+                    <i class="fas fa-retweet fa-2x"></i>
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="card">
+        <div class="list-container" id="list-container">
+            <div class="list-header">
+                <div class="list-title">
+                    <h1>Jokes</h1>
+                    <p>Write down your jokes and keep track of the ones you have told</p>
+                </div>
+                <div class="field is-grouped flex-1">
+                    <button class="button is-primary add-button" id="addJokeButton">Add a joke</button>
+                    <input class="input" id="jokeInput" type="text" placeholder="Jokes...">
+                </div>
+            </div>
+            <hr />
+            <p class="no-joke-text is-hidden" id="no-joke">You don't have any jokes added, make sure to write down your jokes so you dont forget them!</p>            
+        </div>
+    </section>
+</body>
+</html>

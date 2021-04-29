@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    background-color: rgb(39, 39, 39) !important;
+}
+
+.is-primary {
+    background-color: #06ca7f !important;
+}
+
+.is-primary:hover {
+    background-color: #03bd76 !important;
+}
+
+i {
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background-color: rgb(53, 53, 53) !important;
+    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, 0.5),0 0 0 1px rgba(10, 10, 10, 0.4) !important;
+}
+
+.joke-hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title-text {
+    font-weight:bolder;
+    margin-top: 15px;
+    font-size: calc(11px + 2vw);
+    text-shadow: 2px 2px #8d8d8d;
+}
+
+.strapline-text {
+    font-weight: normal;
+    font-size: calc(9px + 1.5vw);
+}
+
+.joke {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+} 
+
+.joke-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 80vw;
+    padding: 10px;   
+}
+
+.joke-text {
+    width: 80%;
+    margin:10px;
+}
+
+.joke-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 80vw;
+    padding: 10px;   
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.punchline-container {
+    flex: 1;
+    padding-top: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.new-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.joke-button {
+    background-color:#48c78e;
+    color:white;
+    padding:10px;
+    border: 0px none;
+    border-radius: 10px;
+    margin:10px;
+    min-width: 55px;
+}
+
+.joke-button:hover {
+    background-color: #36ac77;
+}
+
+.joke-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+} 
+
+
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    width: 80vw;
+    padding: 10px;
+}
+
+.list-header {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.list-title {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.list-title h1 {
+    font-weight: bold;
+    font-size: calc(11px + 1vw);
+    text-shadow: 2px 2px #8d8d8d;
+}
+
+.list-title p {
+    font-weight: normal;
+    font-size: calc(6px + 0.5vw);
+}
+
+.add-button {
+    margin-right:5px;
+}
+
+.joke-input {
+    border-radius: 10px;
+    height: 41px;
+    padding: 5px;
+}
+
+.no-joke-text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.295);
+    margin-bottom: 10px;
+}
+
+.joke-row {
+    display: flex;
+    margin: 5px;
+}
+
+.joke-row p {
+    display: flex;
+    align-self: center;
+    flex:1;
+}
+
+.joke-told {
+    text-decoration: line-through;
+    color: #00d1b2;
+}
