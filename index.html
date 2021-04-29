@@ -25,24 +25,22 @@
 
     <section class="card">
         <audio src="/audio/drum.mp3" id="audio"></audio>
-        <div class="joke-container">  
+        <div class="card-content">  
             <div class="joke-text">
                 <p id="jokeText">Loading Joke...</p>
             </div> 
         </div>
-        <hr class="joke-hr"/>
-        <div class="joke-buttons-container">
-            <div class="punchline-container">
+        <div class="card-footer">
+            <div class="card-item">
                 <button class="button is-primary joke-button" id="punchLineButton">
                     <i class="fas fa-drum fa-2x"></i>
                 </button>
             </div>
-            <div class="new-container">
+            <div class="card-item">
                 <button class="button is-primary joke-button" id="getJokeButton">
                     <i class="fas fa-retweet fa-2x"></i>
                 </button>
             </div>
-
         </div>
 
     </section>
@@ -52,15 +50,14 @@
             <div class="list-header">
                 <div class="list-title">
                     <h1>Jokes</h1>
-                    <p>Write down your jokes and keep track of the ones you have told</p>
                 </div>
                 <div class="field is-grouped flex-1">
-                    <button class="button is-primary add-button" id="addJokeButton">Add a joke</button>
+                    <button class="button is-primary add-button" id="addJokeButton"><i class="fas fa-plus"></i></button>
                     <input class="input" id="jokeInput" type="text" placeholder="Jokes...">
                 </div>
             </div>
             <hr />
-            <p class="no-joke-text is-hidden" id="no-joke">You don't have any jokes added, make sure to write down your jokes so you dont forget them!</p>            
+            <p class="no-joke-text is-hidden" id="no-joke">You don't have any jokes added</p>            
         </div>
     </section>
 </body>
