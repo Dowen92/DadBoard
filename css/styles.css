@@ -11,6 +11,7 @@ html {
 
 .is-primary {
     background-color: #06ca7f !important;
+    width: auto;
 }
 
 .is-primary:hover {
@@ -238,4 +239,5 @@ a:hover {
 
 .list-card {
     margin-bottom: 50px;
+
 }
