@@ -11,7 +11,7 @@ html {
 
 .is-primary {
     background-color: #06ca7f !important;
-    width: auto;
+    width: auto !important;
 }
 
 .is-primary:hover {
@@ -241,3 +241,4 @@ a:hover {
     margin-bottom: 50px;
 
 }
+
