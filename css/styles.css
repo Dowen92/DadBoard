@@ -18,6 +18,10 @@ html {
     background-color: #03bd76 !important;
 }
 
+.is-danger {
+    width: auto !important!;
+}
+
 i {
     color: white;
 }
@@ -241,4 +245,5 @@ a:hover {
     margin-bottom: 50px;
 
 }
+
 
