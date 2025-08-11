@@ -19,7 +19,7 @@ html {
 }
 
 .is-danger {
-    width: auto !important!;
+    width: auto !important;
 }
 
 i {
@@ -245,5 +245,6 @@ a:hover {
     margin-bottom: 50px;
 
 }
+
 
 
